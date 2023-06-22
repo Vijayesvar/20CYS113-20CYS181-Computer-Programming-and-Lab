@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int rows,i,space,j;
+    scanf("%d",&rows);
+    for(i=1;i<=rows;i++){
+        space=rows-1;
+        printf("%d\n",space);
+        for(j=0;j<rows;j++){
+            printf("%d",j);
+        }
+    }
+    return 0;
+}
+    
